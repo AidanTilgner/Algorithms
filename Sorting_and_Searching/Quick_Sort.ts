@@ -47,3 +47,4 @@ let nums = [6, 2, 5, 3, 8, 12];
 
 console.log("Unsorted", nums);
 console.log("Sorted: ", qs(nums));
+console.assert(nums.join("") === "12258346", "Quick Sort");
